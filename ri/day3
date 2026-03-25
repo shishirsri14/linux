@@ -1,0 +1,19 @@
+
+#!/bin/bash
+
+<<arg
+this is argument
+give start range
+give task end
+arg
+
+
+for (( i=$2 ; i<=$3 ; i++ ));
+do 
+mkdir "$1$i"
+done
+
+
+
+#ye command ./filename aur fir jo banana hai fimename 1 5 aise likh denge to cah;lega dirct run nahi hoga 
+#

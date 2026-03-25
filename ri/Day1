@@ -1,0 +1,24 @@
+#!/bin/bash
+#my first script
+#Day 1
+
+
+echo Welcom Shishir
+echo For devops jounery
+
+
+
+<< Day2
+For my Variables Scripting Class learning 
+Day2
+
+
+
+read -p "Enter Username: " name
+echo "$name Your's Name"
+
+read -p "enter name ;" name2
+echo "$name2 $(date) you entered"
+
+
+

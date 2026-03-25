@@ -1,0 +1,26 @@
+#this is condition script
+<<condition
+if elif and else 
+condition
+#this is function definition
+function is_loyal(){
+
+
+read -p "Love percentage:" per
+read -p "$1 kon si  ladki ko dekhta hai:" ladki
+if [[ $ladki == "ankita" ]]
+	then
+echo "$1 loyal "
+elif [[ $per -ge 100 ]];
+	then 
+echo "$1 is loyal"
+	else 
+echo "laudiyabazz"
+	fi
+
+# fi if block of code ko end krta brta hai
+}
+
+#this function is call #
+is_loyal "shishr"
+

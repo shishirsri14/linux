@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#this is while loop 
+num=0
+
+while [[ $num -le 5 ]]
+do
+echo "shishir srivastav"
+num=$num+1
+done
+
+
+
+
+
+

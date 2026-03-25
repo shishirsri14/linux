@@ -1,0 +1,10 @@
+#!/bin/bash
+
+create_dicretory(){
+mkdir demo
+}
+if create_dicretory;then
+echo "file is created"
+else
+echo "file is already exits"
+fi
